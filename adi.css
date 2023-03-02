@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: #fff;
+    color: #e8e7e7;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -51,6 +52,7 @@ body {
     content: '';
     position: absolute;
     left: 0;
+    color:#ffffff;
     bottom: -6px;
     width: 100%;
     height: 3px;
@@ -64,9 +66,9 @@ body {
 .navigation a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
-
-
 }
+
+
 
  .btnLogin-popup {
 
@@ -89,6 +91,18 @@ body {
     background: #fff;
     color: black;
 }
+
+
+
+
+
+  
+.adi1:hover{
+ 
+   font-weight:100;
+    color: #fff;
+   
+  }
 
 .wrapper {
     position: relative;
@@ -234,6 +248,7 @@ body {
 
 .remember-forget a:hover {
     text-decoration: underline;
+    color: #fff;
 
 }
 
